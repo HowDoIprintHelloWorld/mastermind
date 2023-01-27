@@ -6,7 +6,7 @@ hallo()
 
 correct = generate(5, 8)
 guess = []
-print("correct: ",correct)
+# print("correct: ",correct)
 
 while guess != correct:
   guess = formatGuess(input(">>   "))
